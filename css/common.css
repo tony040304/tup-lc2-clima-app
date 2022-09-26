@@ -32,6 +32,7 @@ header {
     top: 0;
     width: 100%;
     background: var(--color-theme);
+    border-radius: 0px 0px 30px 30px;
 }
 nav>ul {
     display: flex;
@@ -54,6 +55,7 @@ nav li.current-page a{
     color: var(--color-theme);
     background-color: var(--color-active);
     pointer-events: none;
+    border-radius: 10px;
 }
 main{
     margin-top: 120px;
@@ -110,4 +112,29 @@ footer {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-}
+section.result {
+        padding-top: 20px;
+    }
+div.card {
+        border-style: groove;
+        border-width: 5px;
+        border-radius: 15px;
+        text-align: center;
+    }
+form.selc {
+        display: inline-flex;
+    }
+form>button {
+        height: 40px;
+        width: 80px;
+        background-color: #00594c;
+        border-style: inherit;
+        border-radius: 10px;
+        color: white;
+    }
+select.ciudad {
+        height: 40px;
+        width: 115px;
+        display: block;
+        border-radius: 5px;
+    }

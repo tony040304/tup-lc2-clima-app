@@ -1,0 +1,18 @@
+class person:
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
+
+    def printaname(self):
+        print(self.firstname, self.lastname)
+
+class jugador(person):
+    def __init__(self, fname, lname, pos):
+        person.__init__(self, fname, lname)
+        self.posicion = pos
+
+    def patearoPelota(self):
+        print("golazooooooo")
+
+
+objecto = person("juan", "rodriguez")

@@ -32,6 +32,7 @@ header {
     top: 0;
     width: 100%;
     background: var(--color-theme);
+    border-radius: 0px 0px 30px 30px;
 }
 nav>ul {
     display: flex;
@@ -54,6 +55,7 @@ nav li.current-page a{
     color: var(--color-theme);
     background-color: var(--color-active);
     pointer-events: none;
+    border-radius: 10px;
 }
 main{
     margin-top: 120px;
@@ -110,4 +112,54 @@ footer {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+input.borrar {
+        height: 40px;
+        width: 80px;
+        background-color: #00594c;
+        border-style: inherit;
+        border-radius: 10px;
+        color: white;
+    }
+input.enviar {
+        height: 40px;
+        width: 80px;
+        background-color: #00594c;
+        border-style: inherit;
+        border-radius: 10px;
+        color: white;
+    }
+form.ayuda {
+        text-align: center;
+        display: block;
+    } 
+input.nombre {
+    height: 30px;
+    width: 255px;
+    border-radius: 5px;
+    border-style: solid;
+    }
+input.Email {
+        height: 30px;
+        width: 255px;
+        border-radius: 5px;
+        border-style: solid;
+    }
+textarea {
+    border-radius: 5px;
+    border-style: solid;
+    }
+form.aa {
+    padding-left: 170px;
+    padding-top: 30px;
 }
+p.aa {
+    display: block;
+    padding-top: 8px;
+    height: 40px;
+    width: 400px;
+    background-color: #bc0000;
+    border-style: inherit;
+    border-radius: 10px;
+    color: white;
+    padding-left: 110px;
+    }

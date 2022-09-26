@@ -32,6 +32,8 @@ header {
     top: 0;
     width: 100%;
     background: var(--color-theme);
+    border-radius: 0px 0px 30px 30px;
+
 }
 nav>ul {
     display: flex;
@@ -54,6 +56,7 @@ nav li.current-page a{
     color: var(--color-theme);
     background-color: var(--color-active);
     pointer-events: none;
+    border-radius: 10px;
 }
 main{
     margin-top: 120px;
@@ -109,5 +112,72 @@ main p {
 footer {
         padding-top: 20px;
         padding-bottom: 20px;
-}
-}
+    }
+input.enviar {
+        height: 40px;
+        width: 80px;
+        background-color: #00594c;
+        border-style: inherit;
+        border-radius: 10px;
+        color: white;
+    }
+input.texto {
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: black;
+        display: block;
+    }
+main {
+    text-align: center;
+    
+    }
+section.alertas {
+        padding-top: 40px;
+        display: block;
+        text-align: center;
+        padding-left: 115px;
+    }
+p.uno {
+    display: block;
+    height: 40px;
+    width: 500px;
+    background-color: #19ee0a;
+    border-style: inherit;
+    border-radius: 10px;
+    color: white;
+    padding-top: 8px;
+    }
+section.alertas1 {
+        padding-top: 30px;
+        display: block;
+        text-align: center;
+        padding-left: 115px;
+    }
+p.dos {
+        display: block;
+        height: 70px;
+        width: 500px;
+        background-color: #e41717;
+        border-style: inherit;
+        border-radius: 10px;
+        color: white;
+        padding-top: 15px;
+    }
+section.aletras2 {
+        padding-top: 30px;
+        display: block;
+        text-align: center;
+        padding-left: 115px;
+    }
+p.tres {
+        display: block;
+        padding-top: 8px;
+        height: 40px;
+        width: 500px;
+        background-color: #ffc800;
+        border-style: inherit;
+        border-radius: 10px;
+        color: white;
+    }
